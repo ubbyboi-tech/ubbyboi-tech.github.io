@@ -151,6 +151,8 @@ paginate: 10
 
 # The base URL of your site
 baseurl: ""
+url: "https://ubbyboi-tech.github.io"
+
 
 # ------------ The following options are not recommended to be modified ------------------
 
