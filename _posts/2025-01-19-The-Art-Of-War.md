@@ -7,13 +7,12 @@ categories:
   - Ancient Wisdom
   - Nonfiction
   - Strategy & Mindset
-aliases:
 ---
   
 Sun Tzu was a Chinese military strategist and philosopher believed to have lived around the 5th century BCE. He’s traditionally credited as the author of The Art of War — a short, powerful treatise on warfare, leadership, and strategy. Despite its age, this text has endured for centuries, studied not only by military leaders but by thinkers in politics, business, sports, and philosophy. At its core, it’s less about violence and more about awareness, discipline, and the power of restraint.
 
 
-[![Sun Tzu](/assets/image/sun-tzu.jpg)](/assets/image/sun-tzu.jpg){:.glightbox}
+[![Sun Tzu](/asset/sun-tzu.jpg)](/asset/sun-tzu.jpg){:.glightbox}
 
 
 The Art Of War
