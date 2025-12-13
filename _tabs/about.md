@@ -4,7 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# About
 
 Welcome to my corner of the internet. This is where I write about books, coffee, and whatever else catches my attention.
 
