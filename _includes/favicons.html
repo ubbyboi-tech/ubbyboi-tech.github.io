@@ -22,18 +22,79 @@
 />
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" />
 
-<!-- GLightbox Close Fix -->
+<!-- GLightbox Initialization and Fix -->
 <script>
   (function () {
+    let glightboxInstance = null;
+
+    function initGLightbox() {
+      // Check if GLightbox library is available
+      if (typeof GLightbox === "undefined") {
+        // Try again after a delay
+        setTimeout(initGLightbox, 100);
+        return;
+      }
+
+      // Prevent default link behavior for .glightbox links
+      document.addEventListener(
+        "click",
+        function (e) {
+          const link = e.target.closest("a.glightbox");
+          if (link) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            // Initialize GLightbox if not already done
+            if (!glightboxInstance) {
+              glightboxInstance = GLightbox({
+                selector: ".glightbox",
+                closeButton: true,
+                closeOnOutsideClick: true,
+                touchNavigation: true,
+                keyboardNavigation: true,
+                openEffect: "fade",
+                closeEffect: "fade",
+              });
+              window.glightboxInstance = glightboxInstance;
+            }
+
+            // Open the clicked image
+            const href = link.getAttribute("href");
+            if (href) {
+              glightboxInstance.open(href);
+            }
+            return false;
+          }
+        },
+        true
+      ); // Use capture phase
+
+      // Initialize GLightbox for all .glightbox links
+      if (!glightboxInstance) {
+        glightboxInstance = GLightbox({
+          selector: ".glightbox",
+          closeButton: true,
+          closeOnOutsideClick: true,
+          touchNavigation: true,
+          keyboardNavigation: true,
+          openEffect: "fade",
+          closeEffect: "fade",
+        });
+        window.glightboxInstance = glightboxInstance;
+      }
+
+      // Fix close functionality
+      fixGLightboxClose();
+    }
+
     function fixGLightboxClose() {
-      // Add click handler for backdrop and close button
+      // Close on backdrop click
       document.addEventListener(
         "click",
         function (e) {
           const container = document.querySelector(".glightbox-container");
           if (!container) return;
 
-          // Check if lightbox is visible
           const isVisible =
             container.offsetParent !== null &&
             !container.classList.contains("glightbox-hide") &&
@@ -41,7 +102,7 @@
 
           if (!isVisible) return;
 
-          // Close on backdrop click (clicking the container itself, not the image)
+          // Close on backdrop click
           if (
             e.target === container ||
             (e.target.classList.contains("glightbox-container") &&
@@ -51,21 +112,10 @@
             e.preventDefault();
             e.stopPropagation();
             if (
-              window.glightboxInstance &&
-              typeof window.glightboxInstance.close === "function"
+              glightboxInstance &&
+              typeof glightboxInstance.close === "function"
             ) {
-              window.glightboxInstance.close();
-            } else if (typeof GLightbox !== "undefined") {
-              // Try to find and close any open GLightbox instance
-              const instances = document.querySelectorAll(
-                ".glightbox-container"
-              );
-              instances.forEach(function (inst) {
-                if (inst.offsetParent !== null) {
-                  inst.style.display = "none";
-                  document.body.style.overflow = "";
-                }
-              });
+              glightboxInstance.close();
             }
             return false;
           }
@@ -80,19 +130,16 @@
             e.preventDefault();
             e.stopPropagation();
             if (
-              window.glightboxInstance &&
-              typeof window.glightboxInstance.close === "function"
+              glightboxInstance &&
+              typeof glightboxInstance.close === "function"
             ) {
-              window.glightboxInstance.close();
-            } else {
-              container.style.display = "none";
-              document.body.style.overflow = "";
+              glightboxInstance.close();
             }
             return false;
           }
         },
         true
-      ); // Use capture phase
+      );
 
       // ESC key handler
       document.addEventListener("keydown", function (e) {
@@ -100,29 +147,27 @@
           const container = document.querySelector(".glightbox-container");
           if (container && container.offsetParent !== null) {
             if (
-              window.glightboxInstance &&
-              typeof window.glightboxInstance.close === "function"
+              glightboxInstance &&
+              typeof glightboxInstance.close === "function"
             ) {
-              window.glightboxInstance.close();
-            } else {
-              container.style.display = "none";
-              document.body.style.overflow = "";
+              glightboxInstance.close();
             }
           }
         }
       });
     }
 
-    // Try multiple times to ensure it runs after GLightbox is loaded
+    // Initialize when DOM is ready
     if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", fixGLightboxClose);
+      document.addEventListener("DOMContentLoaded", initGLightbox);
     } else {
-      fixGLightboxClose();
+      initGLightbox();
     }
 
+    // Also try after page load
     window.addEventListener("load", function () {
-      setTimeout(fixGLightboxClose, 100);
-      setTimeout(fixGLightboxClose, 500);
+      setTimeout(initGLightbox, 100);
+      setTimeout(initGLightbox, 500);
     });
   })();
 </script>
