@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Art of War - Sun Tzu"
-date: 2025-01-19 12:00:00 +0300
+date: 2025-01-19 00:00:00 +0300
 categories:
   - Philosophy
   - Ancient Wisdom
