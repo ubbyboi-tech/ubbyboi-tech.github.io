@@ -9,9 +9,7 @@ categories:
   - Tang Dynasty Literature
   - Lyrical Elegy
 ---
-**Du Fu** (712–770) is often called **China’s greatest realist poet**. Living through war, famine, and personal hardship during the Tang dynasty, his poems blend social conscience with deep emotional truth. Where Li Bai floats into mysticism, Du Fu stays grounded — his work is personal, political, and painfully human.
-
----
+**Du Fu** (712–770) is often called **China's greatest realist poet**. Living through war, famine, and personal hardship during the Tang dynasty, his poems blend social conscience with deep emotional truth. Where Li Bai floats into mysticism, Du Fu stays grounded — his work is personal, political, and painfully human.
 
 
 

@@ -8,14 +8,11 @@ categories:
   - Philosophical Fiction
   - Feminist Fiction
   - Surrealism
----
 Han Kang is a South Korean author known for her spare, poetic prose and haunting explorations of violence, silence, and identity. Born in Gwangju and raised in Seoul, she studied Korean literature and began her writing career as a poet before turning to fiction. Her work often blurs the line between the physical and the symbolic, meditating on what it means to resist — quietly, painfully — in a world that demands conformity.
 
 International recognition came with _The Vegetarian_ (2007), which won the **Man Booker International Prize** in 2016. Translated by Deborah Smith, the novel introduced global readers to Han’s unsettling world, where transformation becomes a form of protest. Her other works, including _Human Acts_ and _The White Book_, continue her exploration of trauma, memory, and the body.
 
 Han Kang is considered one of the most distinctive voices in contemporary Korean literature — lyrical, unflinching, and deeply humane.
-
----
 
 
 

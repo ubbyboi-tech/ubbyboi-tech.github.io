@@ -12,8 +12,6 @@ categories:
 ---
 **Ray Bradbury** was an American writer of speculative fiction, best known for his lyrical, haunting explorations of technology, nostalgia, and the darker corners of the human imagination. From dystopian futures to Martian landscapes to quiet Midwestern towns with strange secrets, Bradbury’s stories often blur the line between science fiction and poetic fable. “The Veldt” (1950), one of his most iconic short stories, first appeared in _The Saturday Evening Post_ before becoming part of his collection _The Illustrated Man_. A chilling blend of futurism and family horror, it remains disturbingly relevant today.
 
----
-
 
 
 [![Ray Bradbury](/assets/image/ray.jpg)](/assets/image/ray.jpg){:.glightbox}

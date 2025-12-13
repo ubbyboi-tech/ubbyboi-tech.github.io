@@ -7,7 +7,6 @@ categories:
   - Fiction
   - Magic
   - Adventure Fiction
-aliases: []
 ---
 Raymond E. Feist (born 1945) is an American fantasy writer best known for his _Riftwar Saga_, beginning with _Magician: Apprentice_ (1982). Drawing on the traditions of high fantasy established by Tolkien yet marked by a brisk, accessible style, Feist’s work helped define the epic fantasy of the late twentieth century. His novels combine the coming-of-age narrative with expansive world-building, political intrigue, and interdimensional conflict. Over four decades, Feist has created one of the most extensive shared universes in modern fantasy, spanning multiple continents, generations, and worlds.
 

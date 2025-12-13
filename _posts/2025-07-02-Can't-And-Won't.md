@@ -9,9 +9,7 @@ categories:
   - Surreal / Absurdist Short Stories
   - Contemporary American Literature
 ---
-**Lydia Davis** is known for writing some of the shortest stories you'll ever read — and some of the most polarizing. A master of **microfiction**, she blends observation, dry humor, and everyday moments into strange little vignettes. Critics love her. She's won a MacArthur “Genius” Grant. But her work often divides readers: you either sink into her fragmented world or bounce off it completely.
-
----
+**Lydia Davis** is known for writing some of the shortest stories you'll ever read — and some of the most polarizing. A master of **microfiction**, she blends observation, dry humor, and everyday moments into strange little vignettes. Critics love her. She's won a MacArthur "Genius" Grant. But her work often divides readers: you either sink into her fragmented world or bounce off it completely.
 
 
 

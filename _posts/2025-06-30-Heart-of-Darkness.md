@@ -9,14 +9,11 @@ categories:
   - Psychological Fiction
   - Philosophical Novel
   - Adventure Fiction
----
 Joseph Conrad (1857–1924) was a Polish-British writer whose work bridges the 19th and 20th centuries, capturing the twilight of the Victorian era and the dawn of modernism. Born Józef Teodor Konrad Korzeniowski in what is now Ukraine, he didn’t learn English until his twenties — yet he became one of the language’s most celebrated novelists.
 
 Conrad’s stories often explore the dark corners of the human psyche and the fragile veneer of civilization. His experiences as a merchant seaman infused his writing with vivid maritime detail and a sense of existential drift. His best-known works, including _Heart of Darkness_, delve into colonialism, moral ambiguity, and the thin line between order and chaos.
 
 His prose can be dense and atmospheric, but beneath the surface lies a relentless questioning of truth, power, and the self. Conrad’s influence reaches far beyond literature — his explorations of identity and imperialism continue to resonate today.
-
----
 
 
 

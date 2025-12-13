@@ -8,12 +8,9 @@ categories:
   - Modern Arabic Poetry
   - Lyric Poetry
   - Postcolonial Literature
----
 **Mahmoud Darwish** (1941–2008) was a Palestinian poet, essayist, and one of the most important literary voices of the Arab world. Exiled from his homeland at a young age, Darwish spent much of his life writing about **identity, loss, exile, and resistance**, weaving together the personal and the political with lyrical intensity.
 
 Often referred to as the **poet of Palestine**, his work transcends geography, speaking to anyone who has ever felt dislocated, silenced, or misunderstood. His poems, though rooted in a particular history, resonate with universal longing and defiance. Whether mournful or fierce, Darwish’s writing is always deeply human.
-
----
 
 
 
