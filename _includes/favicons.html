@@ -29,69 +29,133 @@
 />
 <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 
-<!-- GLightbox Initialization -->
+<!-- GLightbox Fix - MUST prevent navigation -->
 <script>
   (function () {
     let glightboxInstance = null;
 
-    function initGLightbox() {
-      // Check if GLightbox is loaded
-      if (typeof GLightbox === "undefined") {
-        setTimeout(initGLightbox, 100);
-        return;
-      }
+    // CRITICAL: Global click handler that runs FIRST (capture phase, highest priority)
+    document.addEventListener(
+      "click",
+      function (e) {
+        const link = e.target.closest("a.glightbox");
+        if (link) {
+          e.preventDefault();
+          e.stopPropagation();
+          e.stopImmediatePropagation();
 
-      // Initialize GLightbox if not already done
-      if (!glightboxInstance) {
+          const href =
+            link.getAttribute("href") || link.getAttribute("data-href");
+
+          // Wait for GLightbox to load
+          if (typeof GLightbox !== "undefined") {
+            if (!glightboxInstance) {
+              glightboxInstance = GLightbox({
+                selector: ".glightbox",
+                closeButton: true,
+                closeOnOutsideClick: true,
+                touchNavigation: true,
+                keyboardNavigation: true,
+              });
+              window.glightboxInstance = glightboxInstance;
+            }
+
+            if (href && href !== "#" && href !== "javascript:void(0)") {
+              glightboxInstance.open(href);
+            }
+          } else {
+            // If GLightbox not loaded yet, wait and try again
+            setTimeout(function () {
+              if (typeof GLightbox !== "undefined" && !glightboxInstance) {
+                glightboxInstance = GLightbox({
+                  selector: ".glightbox",
+                  closeButton: true,
+                  closeOnOutsideClick: true,
+                  touchNavigation: true,
+                  keyboardNavigation: true,
+                });
+                window.glightboxInstance = glightboxInstance;
+                if (href && href !== "#" && href !== "javascript:void(0)") {
+                  glightboxInstance.open(href);
+                }
+              }
+            }, 100);
+          }
+
+          return false;
+        }
+      },
+      true
+    ); // Capture phase - runs BEFORE other handlers
+
+    // Also remove href attributes to prevent any navigation
+    function removeHrefs() {
+      document.querySelectorAll("a.glightbox").forEach(function (link) {
+        const href = link.getAttribute("href");
+        if (href && !link.hasAttribute("data-href")) {
+          link.setAttribute("data-href", href);
+          link.setAttribute("href", "javascript:void(0)");
+        }
+      });
+    }
+
+    // Run immediately
+    removeHrefs();
+
+    // Run when DOM ready
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", function () {
+        removeHrefs();
+        if (typeof GLightbox !== "undefined" && !glightboxInstance) {
+          glightboxInstance = GLightbox({
+            selector: ".glightbox",
+            closeButton: true,
+            closeOnOutsideClick: true,
+            touchNavigation: true,
+            keyboardNavigation: true,
+          });
+          window.glightboxInstance = glightboxInstance;
+        }
+      });
+    } else {
+      removeHrefs();
+    }
+
+    // Run after page loads
+    window.addEventListener("load", function () {
+      setTimeout(removeHrefs, 50);
+      setTimeout(removeHrefs, 200);
+      setTimeout(removeHrefs, 500);
+
+      if (typeof GLightbox !== "undefined" && !glightboxInstance) {
         glightboxInstance = GLightbox({
           selector: ".glightbox",
           closeButton: true,
           closeOnOutsideClick: true,
           touchNavigation: true,
           keyboardNavigation: true,
-          openEffect: "fade",
-          closeEffect: "fade",
         });
         window.glightboxInstance = glightboxInstance;
       }
+    });
 
-      // Prevent navigation on all .glightbox links
-      document.querySelectorAll("a.glightbox").forEach(function (link) {
-        // Remove any existing click handlers by replacing the link
-        if (!link.hasAttribute("data-glightbox-setup")) {
-          link.setAttribute("data-glightbox-setup", "true");
+    // Watch for new links added dynamically
+    const observer = new MutationObserver(function () {
+      removeHrefs();
+    });
 
-          link.addEventListener(
-            "click",
-            function (e) {
-              e.preventDefault();
-              e.stopPropagation();
-              e.stopImmediatePropagation();
-
-              const href = link.getAttribute("href");
-              if (href && glightboxInstance) {
-                glightboxInstance.open(href);
-              }
-
-              return false;
-            },
-            true
-          ); // Capture phase
-        }
+    if (document.body) {
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true,
+      });
+    } else {
+      document.addEventListener("DOMContentLoaded", function () {
+        observer.observe(document.body, {
+          childList: true,
+          subtree: true,
+        });
       });
     }
-
-    // Initialize when DOM is ready
-    if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", initGLightbox);
-    } else {
-      initGLightbox();
-    }
-
-    // Also try after page fully loads
-    window.addEventListener("load", function () {
-      setTimeout(initGLightbox, 100);
-      setTimeout(initGLightbox, 500);
-    });
   })();
 </script>
