@@ -6,8 +6,10 @@
   RUBY_VERSION = "3.3"
   JEKYLL_ENV = "production"
 
-# Redirect rules for Jekyll (optional, but recommended)
+# Redirect rules for Jekyll SPA routing (only for internal paths)
+# External links are not affected by this rule
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+  force = false
