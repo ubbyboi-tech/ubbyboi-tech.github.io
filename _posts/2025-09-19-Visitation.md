@@ -17,7 +17,7 @@ Her writing is marked by restraint rather than excess. Erpenbeck does not dramat
 
 [![Jenny Erpenbeck](/assets/image/jenny.jpg)](/assets/image/jenny.jpg){:.glightbox}
 
-> “People come and go, the garden remains.”
+>  “People come and go, the garden remains.”
 
 This might honestly be the best book I’ve read so far in 2025, top tier, no hesitation.
 
