@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "2025-09-16-Big-Boy-Leaves-Home"
             }
+          },
+          {
+            "id": "4d0a6bfb6f971a9f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,7 +182,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "a3eacaf1af70cbc9",
+  "active": "4d0a6bfb6f971a9f",
   "lastOpenFiles": [
     "_posts/2025-09-16-Revelation.md",
     "assets/image/richard.jpeg",

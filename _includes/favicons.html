@@ -22,163 +22,28 @@
 />
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" />
 
-<!-- GLightbox CSS and JS -->
+<!-- GLightbox CSS -->
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
+  media="print"
+  onload="this.media='all'"
 />
-<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 
-<!-- GLightbox Fix - MUST prevent navigation -->
+<!-- GLightbox JS - Loaded after page loads (matching working blog) -->
 <script>
-  (function () {
-    "use strict";
-    let glightboxInstance = null;
-
-    // ULTRA-AGGRESSIVE: Remove hrefs and add onclick directly to links
-    function setupLinks() {
-      document.querySelectorAll("a.glightbox").forEach(function (link) {
-        const href = link.getAttribute("href");
-
-        // Store original href
-        if (href && !link.hasAttribute("data-glightbox-href")) {
-          link.setAttribute("data-glightbox-href", href);
-        }
-
-        // Remove href completely
-        link.removeAttribute("href");
-
-        // Add onclick directly to the element
-        link.onclick = function (e) {
-          e.preventDefault();
-          e.stopPropagation();
-          e.stopImmediatePropagation();
-
-          const imageUrl = link.getAttribute("data-glightbox-href") || href;
-
-          if (typeof GLightbox !== "undefined") {
-            if (!glightboxInstance) {
-              glightboxInstance = GLightbox({
-                selector: ".glightbox",
-                closeButton: true,
-                closeOnOutsideClick: true,
-                touchNavigation: true,
-                keyboardNavigation: true,
-              });
-              window.glightboxInstance = glightboxInstance;
-            }
-
-            if (
-              imageUrl &&
-              imageUrl !== "#" &&
-              imageUrl !== "javascript:void(0)"
-            ) {
-              glightboxInstance.open(imageUrl);
-            }
-          }
-
-          return false;
-        };
-
-        // Also prevent default on mousedown (catches clicks earlier)
-        link.onmousedown = function (e) {
-          if (e.button === 0) {
-            // Left click only
-            e.preventDefault();
-          }
-        };
+  window.addEventListener("load", function () {
+    var script = document.createElement("script");
+    script.src =
+      "https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js";
+    script.onload = function () {
+      const lightbox = GLightbox({
+        selector: ".glightbox",
+        touchNavigation: true,
+        loop: true,
+        autoplayVideos: true,
       });
-    }
-
-    // CRITICAL: Global click handler with highest priority
-    document.addEventListener(
-      "click",
-      function (e) {
-        const link = e.target.closest("a.glightbox");
-        if (link) {
-          e.preventDefault();
-          e.stopPropagation();
-          e.stopImmediatePropagation();
-
-          const imageUrl =
-            link.getAttribute("data-glightbox-href") ||
-            link.getAttribute("href");
-
-          if (typeof GLightbox !== "undefined") {
-            if (!glightboxInstance) {
-              glightboxInstance = GLightbox({
-                selector: ".glightbox",
-                closeButton: true,
-                closeOnOutsideClick: true,
-                touchNavigation: true,
-                keyboardNavigation: true,
-              });
-              window.glightboxInstance = glightboxInstance;
-            }
-
-            if (
-              imageUrl &&
-              imageUrl !== "#" &&
-              imageUrl !== "javascript:void(0)"
-            ) {
-              glightboxInstance.open(imageUrl);
-            }
-          }
-
-          return false;
-        }
-      },
-      true
-    ); // Capture phase
-
-    // Run setup immediately if possible
-    if (document.body) {
-      setupLinks();
-    }
-
-    // Run when DOM is ready
-    if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", setupLinks);
-    } else {
-      setupLinks();
-    }
-
-    // Run after page fully loads
-    window.addEventListener("load", function () {
-      setTimeout(setupLinks, 0);
-      setTimeout(setupLinks, 50);
-      setTimeout(setupLinks, 200);
-      setTimeout(setupLinks, 500);
-
-      if (typeof GLightbox !== "undefined" && !glightboxInstance) {
-        glightboxInstance = GLightbox({
-          selector: ".glightbox",
-          closeButton: true,
-          closeOnOutsideClick: true,
-          touchNavigation: true,
-          keyboardNavigation: true,
-        });
-        window.glightboxInstance = glightboxInstance;
-      }
-    });
-
-    // Watch for new links
-    const observer = new MutationObserver(function () {
-      setupLinks();
-    });
-
-    if (document.body) {
-      observer.observe(document.body, {
-        childList: true,
-        subtree: true,
-      });
-    } else {
-      document.addEventListener("DOMContentLoaded", function () {
-        observer.observe(document.body, {
-          childList: true,
-          subtree: true,
-        });
-      });
-    }
-  })();
+    };
+    document.head.appendChild(script);
+  });
 </script>
