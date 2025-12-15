@@ -145,8 +145,7 @@ paginate_path: "/page/:num"
 # For GitHub Pages: Use your GitHub username/repo format
 # For Netlify: Update this to your Netlify site URL (e.g., "https://your-site-name.netlify.app")
 baseurl: ""
-url: "https://ubbyboi-tech.github.io" # GitHub Pages URL
-
+url: "https://bobs-blog.github.io" # GitHub Pages URL
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
