@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Not a Novel: A Memoir in Pieces — Jenny Erpenbeck"
-date: 2025-10-02 12:00:00 +0300
+date: 2025-09-24 12:00:00 +0300
 categories:
   - Literary Nonfiction
   - Memoir
