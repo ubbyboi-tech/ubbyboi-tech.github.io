@@ -49,9 +49,7 @@ Until everyone's basic needs are met, no one should have more than they could ev
 
 I don't have the answers. I don't think anyone ever has. Every ideology is a human construction, and every human construction is flawed. That's why no system should be treated as sacred. Everything must be debated, criticised, dismantled, and rebuilt if we want society to improve at all.
 
-While reading the manifesto, I also came across an article titled _Why We Never Hear About the Countries Where Socialism Works_, and it stuck with me. When most people hear the word socialism, their minds jump straight to bread lines, Venezuela, the Soviet Union, repression, failure. That association didn't happen by accident. It's been drilled into public consciousness, especially in the West, to shut down curiosity before it starts.
-
-<div class="substack-post-embed"><p lang="en">Why We Never Hear About the Countries Where Socialism Works by Amie <3</p><p>utopian promises or authoritarian nightmares????</p><a data-post-link href="https://amieboakye.substack.com/p/why-we-never-hear-about-the-countries">Read on Substack</a></div><script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>
+While reading the manifesto, I also came across an article titled [_Why We Never Hear About the Countries Where Socialism Works_](https://amieboakye.substack.com/p/why-we-never-hear-about-the-countries) by Amie, and it stuck with me. When most people hear the word socialism, their minds jump straight to bread lines, Venezuela, the Soviet Union, repression, failure. That association didn't happen by accident. It's been drilled into public consciousness, especially in the West, to shut down curiosity before it starts.
 
 > "Communism does not deprive any man of the power to appropriate the products of society; all that it does is to deprive him of the power to subjugate the labour of others by means of such appropriations."
 
