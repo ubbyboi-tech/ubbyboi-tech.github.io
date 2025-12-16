@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Glass Bees —  Ernst Jünger
-date: 2025-10-13 12:00:00 +0300
+date: 2025-11-30 12:00:00 +0300
 categories:
   - Speculative Fiction
   - Classics
