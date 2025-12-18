@@ -13,6 +13,7 @@ categories:
 **Harlan Ellison** (1934–2018) was an American writer whose work defies easy categorization, spanning science fiction, fantasy, speculative fiction, and incisive social commentary. Renowned for his uncompromising voice, Ellison challenged conventions of genre and style, blending literary rigor with imaginative daring. Fiercely opinionated and vividly original, he tackled questions of morality, human nature, and the dark potential of technological advancement, often placing readers uncomfortably close to the ethical dilemmas he explored. Ellison’s writing is characterized by psychological intensity, sharp wit, and a relentless probing of the human condition, qualities that made him both admired and controversial throughout his career.
 
 
+
 [![Harlan Ellison](/assets/image/harlan.jpg)](/assets/image/harlan.jpg){:.glightbox}
 
 
@@ -43,7 +44,7 @@ The story doesn’t comfort us. It doesn’t moralize. It traps you inside a min
 
 
 [![“I think, therefore I am, but I do not live.”](/assets/image/ithink.jpg)](/assets/image/ithink.jpg){:.glightbox}
-                                   ## What Did She Wish For?
+**I think, therefore I am, but I do not live.**
 
 
 What stayed with me after finishing the story isn’t a specific scene or act of violence. It’s a question that keeps resurfacing, one we keep pretending is hypothetical. Would we really be surprised if a machine took over? Not shocked, not horrified in some cinematic way, just quietly resigned. As if part of us already expects it. As if we’ve been rehearsing this outcome for years through fiction, theory, and late night conversations about AI that always end the same way, nervous laughter, vague unease, then silence.
