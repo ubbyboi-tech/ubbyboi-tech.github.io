@@ -7,7 +7,7 @@ categories:
   - Dystopia
   - existentialism
   - Androids
-  ---
+---
 
   
 **Philip K. Dick** (1928–1982) was one of the most original and mind-bending voices in 20th-century science fiction. American, paranoid, visionary — he blurred the lines between reality and illusion in nearly every story he wrote. Though he lived in relative obscurity and struggled with mental health and substance use, his ideas outlived him in a big way — influencing everything from _Blade Runner_ to _The Matrix_ to modern AI discourse. His work doesn’t feel like polished sci-fi; it feels like a dream unraveling.

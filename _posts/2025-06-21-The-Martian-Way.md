@@ -8,7 +8,7 @@ categories:
   - Space Exploration
   - Space Pioneering
   - Sci-Fi
-  ---
+---
 
   
 Isaac Asimov was one of the most influential science fiction writers of the 20th century, renowned for his clear prose, clever plotting, and ability to fuse scientific curiosity with philosophical depth. A biochemistry professor by training, Asimov authored or edited over 500 books, spanning fiction, science, history, and more. He helped define the Golden Age of Science Fiction with works like the _Foundation_ series and the _Robot_ stories. _The Martian Way_ (1952), originally published in _Galaxy Science Fiction_, is one of his early explorations of political allegory in space, where the frontier spirit clashes with Earthbound fear and small-mindedness.

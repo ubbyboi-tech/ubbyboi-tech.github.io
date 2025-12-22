@@ -9,7 +9,7 @@ categories:
   - Psychological Fiction
   - Philosophical Novel
   - Adventure Fiction
-  ---
+---
 
   
 Joseph Conrad (1857–1924) was a Polish-British writer whose work bridges the 19th and 20th centuries, capturing the twilight of the Victorian era and the dawn of modernism. Born Józef Teodor Konrad Korzeniowski in what is now Ukraine, he didn’t learn English until his twenties — yet he became one of the language’s most celebrated novelists.

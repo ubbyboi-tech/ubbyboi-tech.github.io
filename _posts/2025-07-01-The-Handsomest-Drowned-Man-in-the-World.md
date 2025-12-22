@@ -9,7 +9,7 @@ categories:
   - Psychological Fiction
   - Philosophical Novel
   - Adventure Fiction
-  ---
+---
 
   
 Gabriel García Márquez (1927–2014) was a Colombian novelist, short story writer, and journalist — a giant of 20th-century literature and a master of magical realism. His stories blend the fantastical with the everyday, making the ordinary feel extraordinary and the unbelievable feel real.
