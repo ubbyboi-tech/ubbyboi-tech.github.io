@@ -9,6 +9,9 @@ categories:
   - Psychological Fiction
   - Philosophical Novel
   - Adventure Fiction
+  ---
+
+  
 Gabriel García Márquez (1927–2014) was a Colombian novelist, short story writer, and journalist — a giant of 20th-century literature and a master of magical realism. His stories blend the fantastical with the everyday, making the ordinary feel extraordinary and the unbelievable feel real.
 
 Best known for _One Hundred Years of Solitude_, Márquez created entire worlds where history, myth, and personal memory intertwine. His writing is rich with lush descriptions, vivid characters, and a deep sense of place — especially the landscapes and people of Latin America.

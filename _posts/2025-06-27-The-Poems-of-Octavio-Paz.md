@@ -8,6 +8,9 @@ categories:
   - Metaphysical Poetry
   - Modernist Literature
   - Poetry that listens back
+---
+
+
 Octavio Paz was a Mexican poet, essayist, and diplomat, widely regarded as one of the most influential literary voices of the 20th century. His poetry, spanning surrealism, metaphysics, eroticism, and history, explores the inner life of the self while situating it within broader cultural, philosophical, and political contexts. Paz fused modernist experimentation with deep roots in Mexican and Mesoamerican thought, drawing on influences from both Eastern mysticism and Western tradition.
 
 Awarded the Nobel Prize in Literature in 1990, he is celebrated for his visionary imagery, intellectual rigor, and spiritual restlessness. In English, his work is often presented in bilingual editions, thanks in large part to the elegant translations and editorial framing of Eliot Weinberger, who helped make Paz’s complex, luminous poetry accessible to a wider audience.

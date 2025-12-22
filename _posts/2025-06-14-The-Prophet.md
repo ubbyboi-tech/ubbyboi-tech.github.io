@@ -7,6 +7,8 @@ categories:
   - Spiritual Wisdom
   - Inspirational Essays
   - Poetry
+  ---
+  
 Kahlil Gibran was a Lebanese-American poet, writer, and artist whose mystical and philosophical works have resonated worldwide for over a century. Born in the Ottoman Empire and later emigrating to the United States, Gibran’s writing blends Eastern spirituality, Christian mysticism, and Romanticism. His best-known work, _The Prophet_ (1923), is a collection of poetic essays offering meditations on love, freedom, joy, sorrow, and the human experience. Its lyrical simplicity and universal wisdom have made it a timeless classic beloved across cultures.
 
 
