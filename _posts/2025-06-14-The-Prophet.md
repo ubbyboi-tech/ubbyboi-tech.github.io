@@ -29,6 +29,7 @@ The simplicity of Gibran’s writing is part of its strength. It feels like list
 
 I’d still recommend it — especially if you want something short and meaningful. Just... maybe try it in the language that speaks closest to your heart.
 
+
 > Your children are not your children.  
 > They are the sons and daughters of Life’s longing for itself.”
 
