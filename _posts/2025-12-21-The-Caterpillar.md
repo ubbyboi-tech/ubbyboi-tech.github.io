@@ -35,7 +35,7 @@ I felt pity more than anything else. Not just for him, but for the situation its
 
 The horror here is quiet. There’s no escalation, no release, no shock designed to wake you up. It just keeps moving forward at the same pace, as if nothing else could have happened. Quiet inevitability is the right phrase. The story doesn’t argue with you. It doesn’t judge. It simply places you there and waits.
 
-“_Meanwhile, Tokiko also managed to find a secondary source of pleasure in tormenting this helpless creature whenever she felt like it. Cruel? Yes! But it was fun — great fun!. . . _" especially during her monthly periods of physical indisposition, she would maltreat the poor cripple with real venom. The barbarity of her actions had grown wilder and more intense with the progress of time. She was, of course, fully aware of the criminal nature of her deeds, but the wild forces rising inside her body were beyond the control of her will.
+“Meanwhile, Tokiko also managed to find a secondary source of pleasure in tormenting this helpless creature whenever she felt like it. Cruel? Yes! But it was fun — great fun!. . . " especially during her monthly periods of physical indisposition, she would maltreat the poor cripple with real venom. The barbarity of her actions had grown wilder and more intense with the progress of time. She was, of course, fully aware of the criminal nature of her deeds, but the wild forces rising inside her body were beyond the control of her will.
 
 This story doesn’t end when you stop reading because I don’t want it to end. Not because it’s comforting, but because it feels complete in its cruelty. It doesn’t pretend to offer escape. It just leaves the door open and lets the silence do the rest.
 
