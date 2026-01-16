@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Unseen Currents: How Media and AI Shape Us Before We Notice"
-date: 2025-12-22 12:00:00 +0300
+date: 2026-01-04 12:00:00 +0300
 categories:
   - Media
   - Technology
