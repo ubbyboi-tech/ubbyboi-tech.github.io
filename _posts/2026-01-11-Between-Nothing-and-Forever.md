@@ -38,3 +38,6 @@ Looking at these perspectives together, the contrast is striking. Abrahamic reli
 
 While the afterlife remains a mystery, reflecting on these perspectives allows me to live more consciously, to embrace each fleeting moment of happiness, and to face the unknown with curiosity and awareness. Perhaps understanding impermanence, and our own limited time, is the closest we get to reconciling with what comes after.
 
+**When i look up, I see no heaven. 
+When i look down, I see no Hell. 
+i feel free**
